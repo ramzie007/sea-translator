@@ -3,7 +3,7 @@
 
 A Python tool to translate English text (e.g., Project Gutenberg books) into Southeast Asian languages using the SEA-LION API.
 
-![Demo Screenshot](../images/image.png)
+![Demo Screenshot](images/image.png)
 
 ## Features
 - Translates to Indonesian, Filipino, Tamil, Thai, or Vietnamese
