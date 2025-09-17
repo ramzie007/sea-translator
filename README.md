@@ -3,6 +3,8 @@
 
 A Python tool to translate English text (e.g., Project Gutenberg books) into Southeast Asian languages using the SEA-LION API.
 
+![Demo Screenshot](../images/image.png)
+
 ## Features
 - Translates to Indonesian, Filipino, Tamil, Thai, or Vietnamese
 - Typer CLI app with rich progress output
@@ -67,8 +69,5 @@ make all       # Run all
 ```
 
 ## Testing & CI
-- Formatting and linting are enforced via Black and Flake8
+- Formatting and linting are enforced via [Black](https://black.readthedocs.io/) and [Flake8](https://flake8.pycqa.org/)
 - GitHub Actions CI runs on every push and PR
-
-## License
-MIT

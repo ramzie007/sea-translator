@@ -29,10 +29,11 @@ SUPPORTED_MODELS = [
     "aisingapore/Llama-SEA-LION-v3-70B-IT",
 ]
 
+
 def main(
     target_language: str = typer.Option(
         ...,
-    help=f'Target SEA language for translation. Options: {", ".join(SUPPORTED_LANGS)}',
+        help=f'Target SEA language for translation. Options: {", ".join(SUPPORTED_LANGS)}',
     ),
     input: str = typer.Option(GUTENBERG_URL, help="Input text file URL"),
     output: str = typer.Option(DEFAULT_FILE_NAME, help="Output file path"),

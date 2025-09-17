@@ -13,7 +13,7 @@ test:
 	pytest tests/
 
 format:
-	black translate_sealion.py helpers.py tests/
+	black translate_sealion.py helpers.py
 
 lint:
-	flake8 translate_sealion.py helpers.py tests/
+	flake8 translate_sealion.py helpers.py
