@@ -1,6 +1,10 @@
 # Makefile for SEA-LION Translator
 
-.PHONY: run test lint docker-build docker-run
+.PHONY: run install test lint
+
+install:
+	pip install -r requirements.txt
+	pip install -r dev-requirements.txt
 
 run:
 	python translate_sealion.py --target-language indonesian --output translated.txt
@@ -13,9 +17,3 @@ format:
 
 lint:
 	flake8 translate_sealion.py helpers.py tests/
-
-docker-build:
-	docker build -t sealion-translator .
-
-docker-run:
-	docker run --env-file .env -v $(PWD):/app sealion-translator
