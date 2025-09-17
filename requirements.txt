@@ -1,0 +1,6 @@
+typer
+rich
+dotenv
+tqdm
+requests
+openai

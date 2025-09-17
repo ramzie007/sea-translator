@@ -1,0 +1,4 @@
+# Development requirements for SEA-LION Translator
+black
+flake8
+pytest
