@@ -1,4 +1,5 @@
 # SEA-LION Translator
+[![CI](https://github.com/ramzie007/sea-translator/actions/workflows/ci.yml/badge.svg)](https://github.com/ramzie007/sea-translator/actions/workflows/ci.yml)
 
 A Python tool to translate English text (e.g., Project Gutenberg books) into Southeast Asian languages using the SEA-LION API.
 
